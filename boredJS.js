@@ -3,7 +3,7 @@ const randomActivity = async (event) => {
     event.preventDefault();
 
     // Define API endpoint URL (response)
-    let response = await fetch("http://www.boredapi.com/api/activy/");
+    let response = await fetch("http://www.boredapi.com/api/activity/");
     // Format response to json
     let responseData = await response.json();
     // Assign activity (response.activity) to variable
